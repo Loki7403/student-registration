@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+<hibernate-mapping>
+    <class name="com.mycompany.student.Student" table="student_table">
+        <id name="sid" column="SID"/>
+        <property name="name" column="SNAME"></property>
+         <property name="gender" column="GENDER"></property>
+          <property name="marks" column="MARKS"></property>
+    </class>
+</hibernate-mapping>
